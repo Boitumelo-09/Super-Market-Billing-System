@@ -1,2 +1,67 @@
 ﻿  Product.cpp
-  Supermarket Billing System.vcxproj -> C:\Users\hp\Desktop\C++ Projects\Supermarket Billing System\x64\Debug\Supermarket Billing System.exe
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\iomanip(311,18): error C2760: syntax error: 'string' was unexpected here; expected 'id-expression'
+  (compiling source file 'Product.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\iomanip(311,18):
+      the template instantiation context (the oldest one first) is
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\iomanip(281,8):
+          while compiling class template 'std::_Quote_in'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\iomanip(311,23): error C3878: syntax error: unexpected token '(' following 'expression'
+  (compiling source file 'Product.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\iomanip(311,24): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'Product.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\iomanip(311,24): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'Product.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\iomanip(311,24): error C3878: syntax error: unexpected token ')' following 'statement'
+  (compiling source file 'Product.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\iomanip(311,24): error C3878: syntax error: unexpected token ')' following 'statement-seq'
+  (compiling source file 'Product.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\iomanip(311,24):
+      missing one of:  '}' ?
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\iomanip(311,24): error C2760: syntax error: ')' was unexpected here; expected '}'
+  (compiling source file 'Product.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\iomanip(311,24): error C3878: syntax error: unexpected token ')' following 'try-block'
+  (compiling source file 'Product.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\iomanip(311,24): error C3878: syntax error: unexpected token ')' following 'compound-statement'
+  (compiling source file 'Product.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\iomanip(311,24): error C3878: syntax error: unexpected token ')' following 'selection-statement'
+  (compiling source file 'Product.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\iomanip(313,17): error C2065: '_Meta': undeclared identifier
+  (compiling source file 'Product.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\iomanip(313,25): error C2065: '_Buf': undeclared identifier
+  (compiling source file 'Product.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\iomanip(314,58): error C2065: '_Meta': undeclared identifier
+  (compiling source file 'Product.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\iomanip(317,49): error C2065: '_Meta': undeclared identifier
+  (compiling source file 'Product.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\iomanip(318,21): error C2065: '_Meta': undeclared identifier
+  (compiling source file 'Product.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\iomanip(318,29): error C2065: '_Buf': undeclared identifier
+  (compiling source file 'Product.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\iomanip(319,62): error C2065: '_Meta': undeclared identifier
+  (compiling source file 'Product.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\iomanip(323,49): error C2065: '_Meta': undeclared identifier
+  (compiling source file 'Product.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\iomanip(324,62): error C2065: '_Buf': undeclared identifier
+  (compiling source file 'Product.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\iomanip(331,54): error C2065: '_Meta': undeclared identifier
+  (compiling source file 'Product.cpp')
+  

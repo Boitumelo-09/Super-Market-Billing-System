@@ -3,6 +3,12 @@
 #ifndef PRODUCT_H
 #define PRODUCT_H
 
+#ifdef _WIN32
+#define clear "cls"
+#else
+#define clear "clear"
+#endif
+
 class Product {
 private:
 	std::string productName{ " " };
@@ -26,11 +32,11 @@ public:
 
 	void administrator();
 	void customer();
-	void displayMenu();
+	
 };
 
-
-
+void displayMenu();
+void clearScreen();
 
 
 
