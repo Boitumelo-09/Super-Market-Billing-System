@@ -36,7 +36,8 @@ public:
 };
 
 void clearScreen();
-void displayMenu();
+void clearScreenWithMessage();
+void displayMenu(int &MenuChoice);
 
 
 #endif // !PRODUCT_H
