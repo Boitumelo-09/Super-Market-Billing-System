@@ -1,6 +1,6 @@
 #include"Product.h"
 #include <iostream>
-
+#include <iomanip>
 
 int main() {
 	Product product{ "Apple",1123,-5,6.90 };

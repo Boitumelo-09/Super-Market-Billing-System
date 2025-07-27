@@ -35,16 +35,8 @@ public:
 	
 };
 
-void displayMenu();
 void clearScreen();
-
-
-
-
-
-
-
-
+void displayMenu();
 
 
 #endif // !PRODUCT_H

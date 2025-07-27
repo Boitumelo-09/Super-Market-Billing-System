@@ -1,5 +1,4 @@
 #include "Product.h"
-
 #include<iostream>
 #include<iomanip>
 Product::Product() = default;
@@ -27,56 +26,38 @@ void Product::setProductPrice(double price) { productPrice = price; }
 void Product::setProductDiscount(double discount) { productDiscount = discount; }
 
 void displayMenu() {
-    int menuOption;
-	using std::cout;
+    using std::cout;
     using std::endl;
     using std::setw;
     using std::setfill;
     using std::left;
     using std::right;
-    using std::fixed;
-    using std::setprecision;
+                
+    cout << setfill('=') << setw(50) << "" << endl;
+    cout << setfill(' ') << right << setw(36) << "SUPERMARKET BILLING SYSTEM" << endl;
+    cout << setfill('=') << setw(50) << "" << endl;
+    cout << left;
+    cout << setw(6) << "No"
+         << setw(25) << "Option"
+         << setw(19) << "Description" << endl;
 
-cout << setfill('.') << setw(40) << "" << endl;
-    cout << setfill(' ') << setw(25) << right << "PRODUCT MENU" << endl;
-    cout << setfill('.') << setw(40) << "" << endl;
+    cout << setfill('-') << setw(50) << "" << endl;
     cout << setfill(' ') << left;
-    cout << setw(5) << "#" 
-         << setw(20) << "Options" 
-         << setw(15) << "Descriptions" << endl;
-    cout << setfill('-') << setw(40) << "" << endl;
-    cout << setfill(' ') << left;
-    cout << setw(5) << "1" 
-         << setw(20) << "Manage Products" 
-         << setw(15) << "Administration" << endl;
-    cout << setw(5) << "2" 
-         << setw(20) << "Purchase Product" 
-         << setw(15) << "Customer Affairs" << endl;
-    cout << setw(5) << "3" 
-         << setw(20) << "Exit" 
-         << setw(15) << "Close Menu" << endl;
-    cout << setfill('.') << setw(40) << "" << endl;
-    std::cout << "Option:";
-    std::cin >> menuOption;
-    switch (menuOption) {
-    case 1:
-        // Code for option 1
 
-        break;
-    case 2:
-        // Code for option 2
-        break;
-    case 3:
-        // Code for option 3
-        break;
-    default:
-        clearScreen();
-        std::cout << "invalid response";
-        exit(EXIT_FAILURE);
-        break;
-    }
+    cout << setw(6) << "1"
+         << setw(25) << "Manage Products"
+         << setw(19) << "Admin functions" << endl;
+
+    cout << setw(6) << "2"
+         << setw(25) << "Purchase Product"
+         << setw(19) << "Customer purchase" << endl;
+
+    cout << setw(6) << "3"
+         << setw(25) << "Exit"
+         << setw(19) << "Close the program" << endl;
+
+    cout << setfill('=') << setw(50) << "" << endl;
 }
-
 
 void Product:: administrator() {
     std::cout << "admin";
